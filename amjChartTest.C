@@ -10,8 +10,7 @@ amjChartTest::amjChartTest(QWidget *parent)
   timer.start(100);
 }
 
-amjChartTest::~amjChartTest()
-{
+amjChartTest::~amjChartTest(){
   delete ui;
 }
 
