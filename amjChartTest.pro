@@ -20,7 +20,7 @@ FORMS += \
 
 LIBS += -L/opt/QCustomPlot/lib/ -lqcustomplot
 INCLUDEPATH += /opt/QCustomPlot/include
-LIBS += -L../build-amjChart-Desktop-Debug/ -lamjChart
+LIBS += -L../build-amjChart-Desktop-Debug/ -L ../amjChart/ -lamjChart
 INCLUDEPATH += ../amjChart/
 
 # Default rules for deployment.
