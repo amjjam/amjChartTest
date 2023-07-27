@@ -19,7 +19,8 @@ FORMS += \
     amjChartTest.ui
 
 LIBS += -L/opt/QCustomPlot/lib -L../QCustomPlot/qcustomplot-sharedlib/sharedlib-compilation -lqcustomplot
-INCLUDEPATH += /opt/QCustomPlot/include ../QCustomPlot/
+INCLUDEPATH += /opt/QCustomPlot/include
+INCLUDEPATH += ../QCustomPlot/
 LIBS += -L../build-amjChart-Desktop-Debug/ -L ../amjChart/ -lamjChart
 INCLUDEPATH += ../amjChart/
 
